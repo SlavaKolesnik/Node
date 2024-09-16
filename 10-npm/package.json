@@ -1,0 +1,23 @@
+{
+    "name": "npm-firs-project",
+    "version": "1.0.0",
+    "description": "My first npm project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "jest"
+    },
+    "keywords": [
+        "npm"
+    ],
+    "author": "Slava",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "nodemon": "^3.1.4"
+    },
+    "dependencies": {
+        "express": "^4.21.0"
+    }
+}
