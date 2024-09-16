@@ -27,4 +27,3 @@ function binary_search(list, item) {
 }
 console.log(binary_search(myArr, 9))
 console.log(myArr)
-console.log(arguments.callee.toString())
